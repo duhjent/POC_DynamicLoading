@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseContracts", "BaseContracts\BaseContracts.csproj", "{3A0C4343-1CDB-44FB-8474-FDA7C1BDCA98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicPlugin", "DynamicPlugin\DynamicPlugin.csproj", "{4B3DD0C4-6500-41BE-9B18-28FAC4E5AB05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginLoader", "PluginLoader\PluginLoader.csproj", "{E37AE914-BA71-44AA-8C22-F9EEE2FED513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A0C4343-1CDB-44FB-8474-FDA7C1BDCA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0C4343-1CDB-44FB-8474-FDA7C1BDCA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0C4343-1CDB-44FB-8474-FDA7C1BDCA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0C4343-1CDB-44FB-8474-FDA7C1BDCA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3DD0C4-6500-41BE-9B18-28FAC4E5AB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3DD0C4-6500-41BE-9B18-28FAC4E5AB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3DD0C4-6500-41BE-9B18-28FAC4E5AB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3DD0C4-6500-41BE-9B18-28FAC4E5AB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37AE914-BA71-44AA-8C22-F9EEE2FED513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37AE914-BA71-44AA-8C22-F9EEE2FED513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37AE914-BA71-44AA-8C22-F9EEE2FED513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37AE914-BA71-44AA-8C22-F9EEE2FED513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
