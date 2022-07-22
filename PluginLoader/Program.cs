@@ -7,8 +7,8 @@ var plugins = new List<Assembly>();
 
 foreach (var arg in args)
 {
-    // var assembly = System.Runtime.Loader.AssemblyLoadContext.Default.LoadFromAssemblyPath(arg);
-    plugins.Add(Assembly.LoadFile(arg));
+    var fileStream = File.OpenRead(arg);
+    plugins.Add(System.Runtime.Loader.AssemblyLoadContext.Default.LoadFromStream(fileStream));
 }
 
 
